@@ -1,0 +1,11 @@
+name: BuildSystem
+version: '1.0-SNAPSHOT'
+main: space.itoncek.buildSystem.BuildSystem
+api-version: '1.21'
+prefix: Builders
+load: POSTWORLD
+authors: [ IToncek ]
+description: Build plugin to host multiple builders on one server with git interactions
+
+commands:
+  git:
